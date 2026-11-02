@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Ink:wght@100..900&family=Isometra&family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+/* font families imported from Google Fonts  */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    background-color: black;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+           ), url("https://static.vecteezy.com/system/resources/thumbnails/021/249/965/small_2x/background-starry-night-sky-stars-sky-night-silhouette-of-the-mountains-vector.jpg");
+    background-repeat: repeat-x;
+    overflow: scroll;
+}
+
+.top
+{
+    margin:0;
+    position:static;
+    top:0;
+}
+
+nav{
+    margin:80px;
+}
+nav ul li
+{
+    list-style: none;
+    display:inline;
+    padding: 50px;
+    opacity: 100%;
+    font-family: "Isometra";
+    font-size: 20px;
+}
+nav ul li:hover
+{
+    font-size: 25px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.hero
+{
+    color:white;
+    margin: 50px;
+    padding: 50px;
+}
+#meet
+{
+    color:white;
+    font-size:50px;
+    font-family: "Bitcount Ink";
+    font-weight:80px;
+}
+#name
+{
+    fill-opacity: 20%;
+    color:white;
+    border-radius: 10px;
+    font-size:67px;
+    font-family:"Lora";
+    font-weight: bold;
+    display:inline-block;
+    /* text-decoration:underline; */
+}
+.underline
+{
+    display:inline-block;
+    width:410px;
+    height:5px;
+    display:inline-block;
+    border-radius:50px;
+    background-image: url('underline.png');
+}
+.underlinedot
+{
+    display:inline-block;
+    /* margin:10px; */
+    height:5px;
+    border-radius: 50px;
+    background-image: url('underline.png');
+}
+#desc
+{
+    font-size:20px;
+    font-family:"Rubik";
+    
+}
+#desc strong
+{
+    color:yellow;
+}
+.heroImage
+{
+    object-fit: cover;
+    height: 310px;
+}
+#heroIndexImage
+{
+    height: 290px;
+    margin:10px;
+    padding:30px;
+    border-radius: 60px;
+    box-shadow: 0 0 24px rgba(155, 124, 255, 0.2);
+    align-items: baseline;
+}
+.aboutPara
+{
+    border-radius: 50px;
+    padding:20px;
+    margin:50px;
+}
+#me
+{
+    width:50em;
+    font-family: "Rubik";
+    font-size:large;
+    border:none;
+    line-height: 2;
+    
+
+}
+#educationMain
+{
+    margin-left: 60px;
+    padding: 10px;
+}
+#cardBoxEducation
+{
+    display: grid;
+    grid-template-columns: 50em 50em;
+    color:white;
+    padding:10px;
+
+}
+.years
+{
+    color:white;
+    font-size:27px;
+}
+.pipe
+{
+    font-size:large;
+}
+#cardBoxEducation .card
+{
+    border: 2px solid rgb(151, 65, 255);
+    border-radius:50px;
+    background-color: #111020;
+    z-index:2;
+    width:30em;
+    height:20em;
+    color:white;
+    font-family:"Rubik";
+    line-height:30px;
+    
+}
+#cardBoxEducation .card #logo img
+{
+    height:100px;
+    /* width:100px; */
+    padding:20px;
+    /* align-self: left; */
+    border-radius:120px;
+}
+#cardBoxEducation .card a
+{
+    text-decoration: none;
+    color:cyan;
+}
+.techStack{
+    margin-left: 60px;
+    padding: 10px;
+}
+#tech
+{
+    border-collapse:separate;
+    background-color: black;
+    color:yellow;
+    border-radius:50px;
+    display:inline-block;
+}
+.techCard{
+    height:50px;
+    
+}
+#about-container
+{
+    display: grid;
+    margin:50px;
+    margin-left:70px;
+    grid-template-columns: 640px 640px;
+}
+.aboutBoxCard
+{
+    padding:10px;
+    margin:10px;
+    height:100px;
+    border-radius:10px;
+    color:#C5C3D8;
+    background-color: #111020;
+    border: 1px solid #38304F;
+    align-content: center;
+    justify-items: center;
+}
+
+.aboutBoxCard  .headingABC{
+    color:#FFFFFF;
+    font-size:27px;
+    font-weight:90px;
+}
+.aboutBoxCard:hover
+{
+    color:#FFFFFF;
+    border-color: #9B7CFF;
+}
+#aboutTechStack
+{
+    margin:50px;
+    margin-left:70px;
+}
+#aboutTechStackBox
+{
+
+    padding:10px;
+    margin:10px;
+
+    align-content: center;
+    justify-items: center;
+    
+}
+#aboutTechStackBox:hover{
+    color:#FFFFFF;
+    border-color: #9B7CFF;
+}
+#aboutTechStackBox ul{
+    list-style-type: none;
+    /* display:inline; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#aboutTechStackBox ul div
+{
+    border-radius:10px;
+    color:#C5C3D8;
+    background-color: #111020;
+    border: 1px solid #38304F;
+}
+
+#aboutTechStackBox ul li ul
+{
+    align-content: center;
+    list-style: none;
+}
+#aboutTechStackBox ul li ul li
+{
+    font-size:15px;
+    display:inline;
+    padding: 10px;
+    border:1px solid #9B7CFF;
+    border-radius:10px;
+    margin:10px;
+}
+
+.aboutTechStackListHead{
+    font-weight:bold;
+    padding:20px;
+    font-size:30px;
+}
+.projectsPageMain
+{
+    margin:50px;
+    margin-left:70px;
+}
+#projectsProjectsCardBox
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projectsProjectsCard{
+    border-radius:10px;
+    color:#C5C3D8;
+    padding:10px;
+    margin:10px;
+    background-color: #111020;
+    border: 1px solid #38304F;
+    font-family:"Rubik";
+
+}
+.projectsProjectsCard p{
+    padding:10px;
+}
+
+#projectProjectsHead
+{
+    color:white;
+    font-size:35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.ProjectsCardHead
+{
+    font-size:25px;
+    color:#9B7CFF;
+
+}
+
+.ProjectsCardStatus
+{
+    background-color:rgba(255, 93, 93,0.45);
+    border:1pz solid red;
+    border-radius:18px;
+    display:inline-block;
+}
+
+.ProjectsCardLink a
+{
+    text-decoration: none;
+    color:cyan;
+
+}
+
+.contactMain{
+    display:grid;
+    justify-items:center;
+    grid-template-columns:1fr;
+    align-content:center;
+}
+.contactMain .contactSubhead
+{
+    color:white;
+    font-family: "Rubik";
+    font-size:30px;
+    align-self: center;
+}
+.contactMain .contactDesc
+{
+    color:white;
+    font-family: "Rubik";
+    font-size:20px;
+    align-self: center;
+}
+.contactCard
+{
+    display:grid;
+    gap:10px;
+    align-items: center;
+    grid-template-columns: 0.5fr 1.5fr;
+    border-radius:10px;
+    color:#C5C3D8;
+    padding:10px;
+    margin:10px;
+    background-color: #111020;
+    border: 1px solid #38304F;
+    font-family:"Rubik";
+}
+.contactCardLogo
+{
+    display: block;
+    width:50px;
+}
+.contactCardLabel
+{
+    display: inline;
+    color:white;
+}
+.contactCardCaption
+{
+    display: inline-block;
+    color:white;
+
+
+}
+.contactCardCaption a
+{
+    text-decoration: none;
+    color:cyan;
+}
+a{
+    text-decoration: none;
+}
